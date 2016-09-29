@@ -1,0 +1,4 @@
+include 'my-app'
+include 'my-app-bad-distribution'
+include 'my-app-good-distribution'
+

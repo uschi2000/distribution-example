@@ -1,0 +1,12 @@
+buildscript {
+    repositories { jcenter() }
+
+    dependencies { classpath "com.palantir.gradle.javadist:gradle-java-distribution:0.9.0" }
+}
+
+allprojects {
+    version = '1.0.0'
+    repositories { jcenter() }
+    apply plugin: 'java'
+    apply plugin: 'idea'
+}

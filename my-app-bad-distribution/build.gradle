@@ -1,0 +1,6 @@
+apply plugin: 'application'
+mainClassName = "myapp.MyApp"
+
+dependencies {
+    compile project(':my-app')
+}

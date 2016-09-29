@@ -1,0 +1,10 @@
+apply plugin: 'com.palantir.java-distribution'
+
+distribution {
+    serviceName 'my-app'
+    mainClass 'myapp.MyApp'
+}
+
+dependencies {
+    compile project(':my-app')
+}
